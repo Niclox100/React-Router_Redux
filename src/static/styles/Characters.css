@@ -1,0 +1,36 @@
+*
+{
+    box-sizing: border-box;
+}
+
+.main-container
+{
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(4, 20%);
+    margin: 10px;
+}
+.character-container
+{
+    border: 2px black solid;
+    padding-top: 20px;
+}
+
+.dark-text
+{
+    color: white;
+    border-color: white;
+}
+
+.title
+{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.fav-del-button
+{
+    margin-bottom: 10px;
+}
